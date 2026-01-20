@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    
+    
+}
+
+.router{
+    display: flex;
+    justify-content: space-evenly;
+}
