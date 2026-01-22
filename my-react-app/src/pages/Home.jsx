@@ -3,8 +3,7 @@ import "./home.css"
 function Home(){
     return(
         <>
-            <h1>This is home</h1>
-            
+            <h1>Welcome to Saint Mary's University</h1>
         </>
     );
    
