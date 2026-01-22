@@ -8,11 +8,10 @@
     align-items: center;
     justify-content: center;
     font-family: DotGothic16;
-
 }
 
 li{
-    border: rgb(1, 0, 61) ;
+    border: #292974 1px solid;
     margin: 10px;
     padding: 10px;
     width: 100px;
@@ -38,7 +37,6 @@ li:hover a {
     color: black;
     cursor: url(https://cdn.custom-cursor.com/db/1/32/pointer1.png)   , pointer !important;
 }
-
 
 img{
     width: 70px;
