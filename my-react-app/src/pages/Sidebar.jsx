@@ -8,9 +8,9 @@ function Sidebar(){
             <Link to="/"><img src="/logo.png" /></Link>  
             <ul className="sidebar">
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/add-student">Add Student</Link></li>
-                <li><Link to="/view-students">View Students</Link></li>
-                <li><Link to="/delete-students">Delete Students</Link></li>
+                <li><Link to="/student">Student</Link></li>
+                <li><Link to="/teacher">Teacher</Link></li>
+                <li><Link to="/classes">Classes</Link></li>
             </ul>
             
         </>

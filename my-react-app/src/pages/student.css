@@ -61,14 +61,18 @@ select{
 
 .name{
     display: flex;
-    justify-content: space-between;
+    justify-content:left;
+    
 }
 .name input{
     width: 220px;
+    margin-right: 10px;
+    
 }
 
 .email-id{
     display: flex;
+    
 }
 
 .email-id div{

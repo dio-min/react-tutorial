@@ -1,10 +1,11 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './pages/home.jsx';
-import AddStudent from './pages/AddStudent.jsx';
-import Sidebar from './pages/sidebar.jsx';
-import ViewStudent from './pages/ViewStudent.jsx';
-import DeleteStudent from './pages/DeleteStudent.jsx';
+import Sidebar from './pages/Sidebar.jsx';
+import Student from './pages/Student.jsx';
+import Teacher from './pages/Teacher.jsx';
+import Classes from './pages/Classes.jsx';
+
 
 
 
@@ -18,11 +19,12 @@ function App() {
       <div className="divider1">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/add-student" element={<AddStudent /> } />
-          <Route path="/view-students" element={<ViewStudent />} />
-          <Route path="/delete-students" element={<DeleteStudent />} />
+          <Route path="/student" element={<Student /> } />
+          <Route path="/teacher" element={<Teacher />} />
+          <Route path="/classes" element={<Classes />} />
         </Routes>
       </div> 
+      
     </div>
   </BrowserRouter>
  );
