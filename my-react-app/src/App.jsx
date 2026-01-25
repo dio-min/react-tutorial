@@ -9,6 +9,9 @@ import Classes from './pages/Classes.jsx';
 
 
 
+
+
+
 function App() {
  return (
   <BrowserRouter>
@@ -19,13 +22,13 @@ function App() {
       <div className="divider1">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/student" element={<Student /> } />
+          <Route path="/student" element={<Student /> }  /> 
           <Route path="/teacher" element={<Teacher />} />
           <Route path="/classes" element={<Classes />} />
         </Routes>
-      </div> 
-      
+      </div>   
     </div>
+    
   </BrowserRouter>
  );
 }
